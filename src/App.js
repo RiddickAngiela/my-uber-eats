@@ -3,6 +3,7 @@ import Navbar from "./componets/Navbar";
 import Hero from "./componets/Hero";
 import HeadlineCard from "./componets/HeadlineCard";
 import Food from "./componets/Food";
+import Category from "./componets/Category";
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
      <Hero />
      <HeadlineCard />
      <Food />
+     <Category />
     </div>
   );
 }
